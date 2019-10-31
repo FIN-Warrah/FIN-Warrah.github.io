@@ -55,17 +55,19 @@
   };
 </script>
 
-  <meta name="description" content="FIN-Warrah personal blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="FIN-Warrah">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="el类型：String|HTMLElement作用：决定Vue实例会管理（绑定）那一个DOM data类型：Object|Function作用：Vue实例对应的数据对象 methods类型：{[key: String]: Function}作用：定义属于Vue的一些方法，可以在其他地方调用，也可也在指令中使用 其他API-Vue.js(https://cn.vuejs.org/v2/api/#%E">
+<meta name="keywords" content="Vue.js学习笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vue的Options选项">
+<meta property="og:url" content="http://yoursite.com/2019/10/31/Vue的Options选项/index.html">
 <meta property="og:site_name" content="FIN-Warrah">
-<meta property="og:description" content="FIN-Warrah personal blog">
+<meta property="og:description" content="el类型：String|HTMLElement作用：决定Vue实例会管理（绑定）那一个DOM data类型：Object|Function作用：Vue实例对应的数据对象 methods类型：{[key: String]: Function}作用：定义属于Vue的一些方法，可以在其他地方调用，也可也在指令中使用 其他API-Vue.js(https://cn.vuejs.org/v2/api/#%E">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-10-31T08:49:12.887Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="FIN-Warrah">
-<meta name="twitter:description" content="FIN-Warrah personal blog">
-  <link rel="canonical" href="http://yoursite.com/archives/">
+<meta name="twitter:title" content="Vue的Options选项">
+<meta name="twitter:description" content="el类型：String|HTMLElement作用：决定Vue实例会管理（绑定）那一个DOM data类型：Object|Function作用：Vue实例对应的数据对象 methods类型：{[key: String]: Function}作用：定义属于Vue的一些方法，可以在其他地方调用，也可也在指令中使用 其他API-Vue.js(https://cn.vuejs.org/v2/api/#%E">
+  <link rel="canonical" href="http://yoursite.com/2019/10/31/Vue的Options选项/">
 
 
 <script id="page-configurations">
@@ -73,13 +75,13 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false,
+    isPost: true,
     isPage: false,
-    isArchive: true
+    isArchive: false
   };
 </script>
 
-  <title>归档 | FIN-Warrah</title>
+  <title>Vue的Options选项 | FIN-Warrah</title>
   
 
 
@@ -202,21 +204,6 @@
 
     
 
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-  
-
 </nav>
 </div>
     </header>
@@ -234,269 +221,132 @@
           <div class="content">
             
 
+  <div class="posts-expand">
+      
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        
-        
-        
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/31/Vue的Options选项/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="FIN-Warrah">
+      <meta itemprop="description" content="FIN-Warrah personal blog">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="FIN-Warrah">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
           
-        
-        <span class="collection-header">嗯..! 目前共计 8 篇日志。 继续努力。</span>
-      </div>
-      
+            Vue的Options选项
+            
 
-      
+          
+        </h1>
 
-  
-  
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
 
-  
+              
+                
+              
+
+              <time title="创建时间：2019-10-31 16:44:16 / 修改时间：16:49:12" itemprop="dateCreated datePublished" datetime="2019-10-31T16:44:16+08:00">2019-10-31</time>
+            </span>
+          
+            
+
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Vue-js学习笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">Vue.js学习笔记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+        </div>
+      </header>
+
     
-    <div class="collection-year">
-      <h1 class="collection-header">2019</h1>
-    </div>
-  
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-10-31T16:49:32+08:00"
-              content="2019-10-31">
-          10-31
-        </time>
-      </div>
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/10/31/Vue生命周期/" itemprop="url">
-            <span itemprop="name">Vue生命周期</span>
-          </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
-
-
-  
-  
-
-  
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-10-31T16:44:16+08:00"
-              content="2019-10-31">
-          10-31
-        </time>
-      </div>
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/10/31/Vue的Options选项/" itemprop="url">
-            <span itemprop="name">Vue的Options选项</span>
-          </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
-
-
-  
-  
-
-  
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-10-31T16:38:05+08:00"
-              content="2019-10-31">
-          10-31
-        </time>
-      </div>
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/10/31/Vue的MVVM/" itemprop="url">
-            <span itemprop="name">Vue的MVVM</span>
-          </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
-
-
-  
-  
-
-  
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-10-31T13:02:33+08:00"
-              content="2019-10-31">
-          10-31
-        </time>
-      </div>
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/10/31/第一个Vue程序/" itemprop="url">
-            <span itemprop="name">第一个Vue程序</span>
-          </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
-
-
-  
-  
-
-  
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-10-31T12:44:46+08:00"
-              content="2019-10-31">
-          10-31
-        </time>
-      </div>
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/10/31/Vue-js的安装/" itemprop="url">
-            <span itemprop="name">Vue.js的安装</span>
-          </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
-
-
-  
-  
-
-  
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-10-31T12:10:00+08:00"
-              content="2019-10-31">
-          10-31
-        </time>
-      </div>
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/10/31/初识Vue-js/" itemprop="url">
-            <span itemprop="name">初识Vue.js</span>
-          </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
-
-
-  
-  
-
-  
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-10-12T15:47:09+08:00"
-              content="2019-10-12">
-          10-12
-        </time>
-      </div>
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/10/12/个人简介/" itemprop="url">
-            <span itemprop="name">个人简介</span>
-          </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
-
-
-  
-  
-
-  
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-10-12T13:13:18+08:00"
-              content="2019-10-12">
-          10-12
-        </time>
-      </div>
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/10/12/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World</span>
-          </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
-
-
+      
+        <h2 id="el"><a href="#el" class="headerlink" title="el"></a>el</h2><p>类型：String|HTMLElement<br>作用：决定Vue实例会管理（绑定）那一个DOM</p>
+<h2 id="data"><a href="#data" class="headerlink" title="data"></a>data</h2><p>类型：Object|Function<br>作用：Vue实例对应的数据对象</p>
+<h2 id="methods"><a href="#methods" class="headerlink" title="methods"></a>methods</h2><p>类型：{[key: String]: Function}<br>作用：定义属于Vue的一些方法，可以在其他地方调用，也可也在指令中使用</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>API-Vue.js(<a href="https://cn.vuejs.org/v2/api/#%E9%80%89%E9%A1%B9-%E6%95%B0%E6%8D%AE" target="_blank" rel="noopener">https://cn.vuejs.org/v2/api/#%E9%80%89%E9%A1%B9-%E6%95%B0%E6%8D%AE</a>)</p>
 
     </div>
+
+    
+    
+    
+        
+      
+
+      <footer class="post-footer">
+          
+            
+          
+          <div class="post-tags">
+            
+              <a href="/tags/Vue-js学习笔记/" rel="tag"># Vue.js学习笔记</a>
+            
+          </div>
+        
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+              
+                <a href="/2019/10/31/Vue的MVVM/" rel="next" title="Vue的MVVM">
+                  <i class="fa fa-chevron-left"></i> Vue的MVVM
+                </a>
+              
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
+                <a href="/2019/10/31/Vue生命周期/" rel="prev" title="Vue生命周期">
+                  Vue生命周期 <i class="fa fa-chevron-right"></i>
+                </a>
+              
+            </div>
+          </div>
+        
+      </footer>
+    
+  </article>
+  
+  
+  
+
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>
@@ -513,6 +363,11 @@
 
   <aside class="sidebar">
     <div class="sidebar-inner">
+        
+        
+        
+        
+      
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
@@ -525,6 +380,8 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#el"><span class="nav-number">1.</span> <span class="nav-text">el</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#data"><span class="nav-number">2.</span> <span class="nav-text">data</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#methods"><span class="nav-number">3.</span> <span class="nav-text">methods</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其他"><span class="nav-number">4.</span> <span class="nav-text">其他</span></a></li></ol></div>
+        
       </div>
       <!--/noindex-->
 
